@@ -1,0 +1,10 @@
+C:\Programowanie\MojeFinanse\MojeFinanse\bin\Debug\MojeFinanse.exe.config
+C:\Programowanie\MojeFinanse\MojeFinanse\bin\Debug\MojeFinanse.exe
+C:\Programowanie\MojeFinanse\MojeFinanse\bin\Debug\MojeFinanse.pdb
+C:\Programowanie\MojeFinanse\MojeFinanse\obj\Debug\MojeFinanse.csprojAssemblyReference.cache
+C:\Programowanie\MojeFinanse\MojeFinanse\obj\Debug\MojeFinanse.Properties.Resources.resources
+C:\Programowanie\MojeFinanse\MojeFinanse\obj\Debug\MojeFinanse.csproj.GenerateResource.cache
+C:\Programowanie\MojeFinanse\MojeFinanse\obj\Debug\MojeFinanse.csproj.CoreCompileInputs.cache
+C:\Programowanie\MojeFinanse\MojeFinanse\obj\Debug\MojeFinanse.exe
+C:\Programowanie\MojeFinanse\MojeFinanse\obj\Debug\MojeFinanse.pdb
+C:\Programowanie\MojeFinanse\MojeFinanse\obj\Debug\MojeFinanse.SignInForm.resources
