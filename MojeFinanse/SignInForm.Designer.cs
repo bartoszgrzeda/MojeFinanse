@@ -34,6 +34,7 @@
             this.passwordBox = new System.Windows.Forms.TextBox();
             this.closeButton = new System.Windows.Forms.Button();
             this.signinButton = new System.Windows.Forms.Button();
+            this.registerLinkLabel = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // loginBox
@@ -65,6 +66,7 @@
             // 
             this.passwordBox.Location = new System.Drawing.Point(107, 84);
             this.passwordBox.Name = "passwordBox";
+            this.passwordBox.PasswordChar = '*';
             this.passwordBox.Size = new System.Drawing.Size(145, 20);
             this.passwordBox.TabIndex = 2;
             // 
@@ -88,11 +90,28 @@
             this.signinButton.UseVisualStyleBackColor = true;
             this.signinButton.Click += new System.EventHandler(this.signinButton_Click);
             // 
+            // registerLinkLabel
+            // 
+            this.registerLinkLabel.ActiveLinkColor = System.Drawing.Color.DeepSkyBlue;
+            this.registerLinkLabel.AutoSize = true;
+            this.registerLinkLabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.registerLinkLabel.LinkColor = System.Drawing.SystemColors.MenuHighlight;
+            this.registerLinkLabel.Location = new System.Drawing.Point(34, 185);
+            this.registerLinkLabel.Name = "registerLinkLabel";
+            this.registerLinkLabel.Padding = new System.Windows.Forms.Padding(0, 0, 10, 0);
+            this.registerLinkLabel.Size = new System.Drawing.Size(223, 13);
+            this.registerLinkLabel.TabIndex = 6;
+            this.registerLinkLabel.TabStop = true;
+            this.registerLinkLabel.Text = "Nie masz konta? Zarejstruj się klikając tutaj!";
+            this.registerLinkLabel.VisitedLinkColor = System.Drawing.Color.Black;
+            this.registerLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.registerLinkLabel_LinkClicked);
+            // 
             // SignInForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(279, 243);
+            this.ClientSize = new System.Drawing.Size(279, 220);
+            this.Controls.Add(this.registerLinkLabel);
             this.Controls.Add(this.signinButton);
             this.Controls.Add(this.closeButton);
             this.Controls.Add(this.passwordLabel);
@@ -119,6 +138,7 @@
         private System.Windows.Forms.TextBox passwordBox;
         private System.Windows.Forms.Button closeButton;
         private System.Windows.Forms.Button signinButton;
+        private System.Windows.Forms.LinkLabel registerLinkLabel;
     }
 }
 
